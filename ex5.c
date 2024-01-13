@@ -5,6 +5,6 @@ int main(void) {
   int i = 0;
   for (i = 0; str[i] != NULL; i++)
     ;
-  printf("%d", str);
+  printf("%s, %d", str, i);
   return 0;
 }
